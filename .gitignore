@@ -1,1 +1,23 @@
 web/.env
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore local development settings
+*.sqlite3
+*.env
+
+# Ignore static files
+/staticfiles/
+
+# Ignore media files
+/media/
+
+# Ignore virtual environment
+venv/
+
+# Ignore macOS system files
+.DS_Store

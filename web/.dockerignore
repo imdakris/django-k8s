@@ -1,0 +1,24 @@
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Django migration files
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore virtual environment files
+venv/
+
+# Ignore Visual Studio Code settings and workspace files
+.vscode/
+.env
