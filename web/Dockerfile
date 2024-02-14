@@ -18,7 +18,7 @@ RUN /opt/venv/bin/pip install --upgrade pip && \
     chmod +x entrypoint.sh 
     
 # Expose the port that the Django app runs on
-EXPOSE 8000
+# EXPOSE 8000
 
 # Run the entrypoint script
 CMD ["/app/entrypoint.sh"]
